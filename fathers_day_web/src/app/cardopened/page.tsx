@@ -29,10 +29,10 @@ function CardOpenedPage() {
         <div className="mt-40">
           <p className="text-5xl text-slate-950">Dear Dad,</p>
           <p className="text-2xl mt-10 text-slate-950">
-            Happy Father's Day! Thank you for all the love and support you have
+            Happy Father&apos;s Day! Thank you for all the love and support you have
             given me. I hope you have a great day! Love you! 🎉🎉🎉
           </p>
-          <p className="text-2xl ml-60 text-slate-950">From your loving child "Name"</p>
+          <p className="text-2xl ml-60 text-slate-950">From your loving child (Name)</p>
         </div>
         <button
         type="button"
