@@ -1,0 +1,29 @@
+.cardContainer {
+    transition: transform 0.5s ease;
+    transform: scale(0);
+  }
+  
+  .cardContainer.open {
+    transform: scale(1);
+  }
+  
+  .card {
+    transition: transform 0.5s ease;
+    transform: translateY(50px);
+  }
+  
+  .cardContainer.open .card {
+    transform: translateY(0);
+  }
+  
+  .message {
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  
+  .cardContainer.open .message {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
