@@ -101,7 +101,7 @@ function CardOpenedPagePC() {
         } ${isOpen ? styles.open : ""}`}
       >
         <div
-          className={`relative sm:m-20 shadow-2xl box-border h-full w-full sm:h-fit sm:w-5/12 p-4 bg-transparent sm:rounded-3xl justify-center items-center `}
+          className={` sm:m-20  box-border h-full w-full sm:h-fit sm:w-5/12 p-4  sm:rounded-3xl justify-center items-center `}
         >
           <Image
             src="/images/cardfirstpage.jpg"
@@ -128,7 +128,7 @@ function CardOpenedPagePC() {
               From your loving child (Name)
             </p>
           </div>
-          <div className="flex justify-between w-full absolute bottom-4 left-0 px-4">
+          <div className="flex justify-between w-full mb-4 px-4">
             <button
               type="button"
               className=" left-4 text-white bg-gradient-to-r from-cyan-500 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-cyan-300 dark:focus:ring-cyan-800 font-medium rounded-3xl text-sm px-5 py-2.5 text-center"
